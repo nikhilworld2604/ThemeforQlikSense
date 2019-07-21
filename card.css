@@ -1,0 +1,305 @@
+.qv-client.qv-card #qv-stage-container #grid .qv-gridcell .sheet-list.cell-content {
+    border: none;
+    padding: 0;
+}
+
+.qv-client.qv-card #qv-stage-container #grid .cell-content .qv-object {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.qv-client.qv-card #qv-stage-container #grid .qv-viz.qv-viz-with-disclaimer {
+    height: -webkit-calc(100% - 2.19em);
+    height: calc(100% - 2.19em);
+}
+
+.qv-client.qv-card #qv-stage-container #grid .qv-viz-disclaimer {
+    padding: .5em 0;
+}
+
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object-wrapper .qv-object {
+    border: none;
+}
+
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object .qv-object-header.thin {
+    height: 38px !important;
+}
+
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object .qv-footer-wrapper {
+    border: none;
+    border-top: 1px solid #d9d9d9;
+}
+
+.qv-client.qv-card #qv-stage-container #grid .zoom .qv-object-nav {
+    top: 0;
+    background: 0 0;
+}
+
+    .qv-client.qv-card #qv-stage-container #grid .zoom .qv-object-nav.zero-top {
+        top: 0;
+    }
+
+@media only screen and (orientation: landscape) {
+.qv-client.qv-card #qv-stage-container #grid .qv-object-wrapper .qv-object {
+  box-shadow: 0 2px 3px 2px rgba(0,0,0,.2), 0 4px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+}
+
+
+
+.qv-object-text-image .qv-media-tool-html {
+    padding: 7px 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.qv-object-text-image .qv-media-tool-editor, .qv-object-text-image .qv-media-tool-html {
+    font-size: 14px;
+    line-height: 1.4;
+
+}
+
+.qv-object-header {
+margin-right: auto;
+margin-left: auto;
+padding: 0;
+}
+
+ .qv-object .qv-object-title {
+padding: 0;
+}
+
+.qv-object .qv-object-title.qv-rtl-layout {
+padding: 0;
+}
+
+.lui-button--success {
+    background-color: #a62b4d;
+   
+}
+
+
+.lui-checkbox .lui-checkbox__input:checked + .lui-checkbox__check-wrap .lui-checkbox__check, .lui-checkbox .lui-checkbox__input:indeterminate + .lui-checkbox__check-wrap .lui-checkbox__check {
+    background: #a62b4d;
+    border-color: transparent;
+}
+
+.qv-object-SimpleFieldSelect .select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 42px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+
+.qv-st {
+    position: relative;
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+	white-space: nowrap;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: inherit;
+}
+
+
+
+.qv-st-data-cell {
+    line-height: 1.23076923;
+    color: inherit;
+    vertical-align: top;
+	white-space: nowrap;
+    border-bottom: 1px solid #F2F2F2;
+    background-color: inherit;
+    padding-top: 0.23076923em;
+    padding-bottom: 0.23076923em;
+}
+
+
+
+	
+	
+.qv-viz-disclaimer {
+    position: relative;
+    font-size: 0.1em;
+    font-style: italic;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    display: none;
+    color: #4286f4;
+    cursor: default;
+}
+
+
+.qv-object .qv-object-title .qv-object-title-text.disclaimer {
+    display:none;
+    overflow: hidden;
+    padding: 0 3px;
+}
+
+
+.qv-object-nav > a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    padding: 0.2em;
+}
+
+.lui-icon--lasso:before {
+    content: "\2014";
+	 display: block;
+}
+
+
+.sel-toolbar-icon-toggle.menu-active {
+	display: block;    
+	color: #FFFFFF;
+    background-color: #595959;
+}
+
+
+.sel-toolbar-icon {
+    color: #595959;
+    background-color: transparent;
+	display:block;
+}
+
+
+.qv-object-nav.zero-top > a:active, .qv-object-nav.zero-top > a.active {
+    color: #333333;
+	display:block;
+}
+
+
+.qv-object-nav.zero-top > a:before {
+    display: block;
+    height: 100%;
+}
+
+
+.lui-icon lui-icon--control
+{
+display:block;
+}
+
+.qv-object-nav > a {
+    display:block;
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    padding: 0.2em;
+}
+
+
+.lui-button--success {
+	border: 0;
+    padding: 4px;
+    box-shadow: inset 0 -2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 200ms ease-out;
+}
+
+
+.qv-object .qv-listbox li.selected, .qv-listbox .serverSelected, .qv-listbox .serverLocked {
+    background-color: #a62b4d;
+    color: #FFFFFF;
+    border-bottom: 1px solid #BAEBBA;
+}
+
+
+.qv-object .qv-state-count-bar .state.selected {
+    background: #a62b4d;
+	
+	}
+	
+	.qv-state-count-bar .state.selected {
+    background: #a62b4d;
+}
+
+
+
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #a62b4d;
+    transition: none;
+}
+
+
+
+.qv-rebrand2018 .qv-state-count-bar .state.locked, .qv-rebrand2018 .qv-state-count-bar .state.selected {
+    background: #a62b4d;
+}
+
+
+.qv-state-count-bar .state.selected {
+    background: #a62b4d;
+}
+
+.qv-st-data-cell.qv-st-data-cell-selected-highlighted {
+    background-color: #a62b4d;
+    border-bottom: 1px solid #a62b4d;
+    color: #fff;
+}
+
+.qv-rebrand2018 .qv-listbox .serverLocked, .qv-rebrand2018 .qv-listbox .serverSelected, .qv-rebrand2018 .qv-listbox li.selected {
+    background-color: #a62b4d;
+    border-bottom-color: #a62b4d;
+}
+
+.qs-toolbar__center .qs-toolbar__tabset--icons .qs-toolbar__tabset--tab {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 2px 0;
+    min-width: 60px;
+    min-height: 0;
+    height: auto;
+}
+
+.qs-toolbar__center .qs-toolbar__tabset--icons {
+    display: none;
+    justify-content: center;
+}
+
+.qs-mobile-toolbar__center {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: none;
+    align-items: center;
+    justify-content: center
+}
+
+.qs-toolbar__center .qs-toolbar__tabset{
+display:none;
+}
